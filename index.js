@@ -113,10 +113,34 @@
 
 //Ex4: Ano Bissexto
 
-const ano = Number(prompt("Digite um ano: "))
+// const ano = Number(prompt("Digite um ano: "))
 
-if((ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0)){
-    alert(ano + " é um ano bissexto")
-}else{
-    alert(ano + " não é um ano bissexto")
+// if((ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0)){
+//     alert(ano + " é um ano bissexto")
+// }else{
+//     alert(ano + " não é um ano bissexto")
+// }
+
+
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+
+// let i = 1
+// while(i <= 5){
+//     alert("Número: " + i)
+//     i++
+// }
+
+// let senha
+// do{
+//     senha = prompt("Digite a senha: ")
+
+// }while(senha !== "1234")
+
+//     alert("Acesso Liberado!")
+
+for(let num = 1; num <= 10; i++){
+    console.log("7 X " + num + " = " + (7 * num));
 }
