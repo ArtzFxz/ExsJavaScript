@@ -4,18 +4,18 @@ alert(" Bem-vindo à Cafeteria! ");
 let continuar = true;
 
 while (continuar) {
-    const name = prompt("Qual é o seu nome?");
-    const drink = prompt("Qual bebida você deseja? (Café, Chá, Suco)");
+    const nome = prompt("Qual é o seu nome?");
+    const bebida = prompt("Qual bebida você deseja? (Café, Chá, Suco)");
     
     if (confirm("Deseja adicionar açúcar?")) {
-        alert(`${name}, seu ${drink} com açúcar está sendo preparada!`);
+        alert(`${nome}, seu ${bebida} com açúcar está sendo preparada!`);
     } else {
-        alert(`${name}, seu ${drink} sem açúcar está sendo preparada!`);
+        alert(`${nome}, seu ${bebida} sem açúcar está sendo preparada!`);
     }
     
     if (confirm("Deseja um acompanhamento?")) {
-        const accompaniment = prompt("Qual acompanhamento? (Bolo, Biscoito, Sanduíche)");
-        alert(`Acompanhamento selecionado: ${accompaniment}`);
+        const acompanhamento = prompt("Qual acompanhamento? (Bolo, Biscoito, Sanduíche)");
+        alert(`Acompanhamento selecionado: ${acompanhamento}`);
     } else {
         alert("Nenhum acompanhamento selecionado.");
     }
