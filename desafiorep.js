@@ -1,4 +1,3 @@
-
 //  DESAFIO 
 alert(" Bem-vindo à Cafeteria! ");
 
