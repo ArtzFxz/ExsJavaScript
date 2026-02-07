@@ -113,18 +113,10 @@
 
 //Ex4: Ano Bissexto
 
+const ano = Number(prompt("Digite um ano: "))
 
-let ano = Number(prompt("Digite um ano:"));
-let bissexto;
-
-if ((ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0)) {
-    bissexto = true;
-} else {
-    bissexto = false;
-}
-
-if (bissexto) {
-    alert("O ano é bissexto");
-} else {
-    alert("O ano não é bissexto");
+if((ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0)){
+    alert(ano + " é um ano bissexto")
+}else{
+    alert(ano + " não é um ano bissexto")
 }
